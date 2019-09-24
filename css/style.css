@@ -1,3 +1,72 @@
+body{
+    background: teal;
+}
+
+.layout{
+    background-color: aquamarine;
+    width: 100%; /*take full width all the time*/
+    max-width: 400px; /*could be relative as well*/
+    height: 4em;
+    overflow: scroll; /*/turning to the scrolling box*/ /* can be used also for cropping images*/
+/* centering the elements is different if it is a block or inline*/
+margin-right: auto; /* puts margin automaticalilly to the rigth*/
+/* centering the block - margin-rigth+margin-left=auto - will center them automatically*/
+margin-left: ;auto;
+margin:0 auto; /*/ this is an alternative. the closest thing to the responsive that we will have now*/
+
+float: rigth; /* floatallow text to float around the image*/ /* Rocco doesnt reccomend us to use it*/
+
+
+overflow:hidden; /*/removes the vertical spaces between the elements*/
+}
+
+
+img{ /* allows responsive images*/
+    width: auto;
+    max-width: 100%;
+}
+
+.align{
+    vertical-align: top;
+}
+
+
+
+/*defining box size:
+
+display
+width
+heigth
+box-sizing
+padding
+borger
+margin
+max-width
+min-width
+max-height
+min-height
+overflow
+*/
+
 h1{
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.box{
+    background-color: crimson;
+    color: white;
+    text-align: justify;
+
+
+box-sizing: border-box;
+display: inline-block;
+width: 50%;
+height: auto;
+padding:1em;
+
+
 }
