@@ -5,8 +5,8 @@ body{
 .layout{
     background-color: aquamarine;
     width: 100%; /*take full width all the time*/
-    max-width: 400px; /*could be relative as well*/
-    height: 4em;
+    max-width: 800px; /*could be relative as well*/
+    height: 10em;
     overflow: scroll; /*/turning to the scrolling box*/ /* can be used also for cropping images*/
 /* centering the elements is different if it is a block or inline*/
 margin-right: auto; /* puts margin automaticalilly to the rigth*/
@@ -18,7 +18,15 @@ float: rigth; /* floatallow text to float around the image*/ /* Rocco doesnt rec
 
 
 overflow:hidden; /*/removes the vertical spaces between the elements*/
+
+
 }
+
+
+/* REM is relative to the browser. More consistent and responsive
+/* EM is relevant to what is defined in the document. more important when the relativeness to the whole layout is important*/
+
+
 
 
 img{ /* allows responsive images*/
@@ -26,11 +34,25 @@ img{ /* allows responsive images*/
     max-width: 100%;
 }
 
+html{
+    font-size: 1.5rem; /* the only way to overrisde the browers default*/
+}
+
+body{
+
+}
+
 .align{
     vertical-align: top;
 }
 
+.story{
+    font-size: 1.5em; /* 16 will be multiplies it by 1.5*/
+}
 
+.headline{
+    font-size: 1.5em; /* 16 will be multiplies it by 1.5. It will inherit, so it will be 1.5*1.5*24 points* This is responsive and it is relative to the browser default/
+} 
 
 /*defining box size:
 
