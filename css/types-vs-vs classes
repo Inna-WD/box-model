@@ -1,0 +1,6 @@
+h1{
+type
+}
+
+.heading{} --> class
+#first-heading{} -->id (more specific than class and couldn't be reusable
